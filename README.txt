@@ -68,3 +68,11 @@ Hasta el momento tenemos 2 minijuegos funcionales los cuales se encuentran en el
 -Agregar animaciones en Tower Defense
 -Agregar sonidos a ataques en Tower Defense
 
+
+Se acutalizaron varias clases las cuales manejan archivos/Files. Estas
+no habrian los archivos fuera de eclipse. Se modifico de maner que se
+puede crear un Archivo JAR ejecutable y correr. 
+ERRORES AL EXPORTAR COMO JAR EJECUTABLE:
+PlaySound no funcional. No sonido de brinco . No sonido de burbujas.
+Juego en puerta 1 ( Tower Defense) no se ven los enemigos, no se ven el
+camino de el enemigo.

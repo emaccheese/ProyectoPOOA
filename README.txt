@@ -74,5 +74,4 @@ no habrian los archivos fuera de eclipse. Se modifico de maner que se
 puede crear un Archivo JAR ejecutable y correr. 
 ERRORES AL EXPORTAR COMO JAR EJECUTABLE:
 PlaySound no funcional. No sonido de brinco . No sonido de burbujas.
-Juego en puerta 1 ( Tower Defense) no se ven los enemigos, no se ven el
-camino de el enemigo.
+RESUELTO: Juego en puerta 1 ( Tower Defense) no se ven los enemigos.

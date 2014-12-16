@@ -5,7 +5,7 @@ import java.util.*;
 import Interfaz.Screen;
 
 public class Save {
-	public void loadSave(File loadPath) {
+	public void loadSave(InputStream loadPath) {
 		try {
 			Scanner loadScanner = new Scanner(loadPath);
 			

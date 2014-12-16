@@ -51,6 +51,12 @@ public class Screen extends JPanel implements Runnable {
 	private ImageIcon imgRes1;
 
 	private ImageIcon imgRes2;
+
+	private ImageIcon mob;
+
+	private ImageIcon mob1;
+
+	
 	
 	public static Point mse = new Point(0,0);
 	
@@ -99,11 +105,13 @@ public class Screen extends JPanel implements Runnable {
 		tileset_res[1] = imgRes1.getImage();
 		tileset_res[2] = imgRes2.getImage();
 		
-		tileset_mob[0] = new ImageIcon("src/Datos/res/melet.png").getImage();
-		tileset_mob[1] = new ImageIcon("src/Datos/res/bee.png").getImage();
+		mob = new ImageIcon("/Datos/res/melet.png");
+		//mob1 = new ImageIcon("/Datos/res/bee.png");
+		tileset_mob[0] = mob.getImage();
+		//tileset_mob[1] = mob1.getImage();
 
-		save.loadSave(new File("src/Datos/save/mission" + level + ".fer"));
-		
+		//save.loadSave(new File("src/Datos/save/mission" + level + ".fer"));
+		save.loadSave(Screen.class.getResourceAsStream("/Datos/save/mission" + level + ".fer"));
 		
 		for(int i = 0; i < mobs.length; i++) {
 			mobs[i] = new Mob();

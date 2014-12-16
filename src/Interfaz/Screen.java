@@ -105,9 +105,9 @@ public class Screen extends JPanel implements Runnable {
 		tileset_res[1] = imgRes1.getImage();
 		tileset_res[2] = imgRes2.getImage();
 		
-		mob = new ImageIcon("/Datos/res/melet.png");
-		//mob1 = new ImageIcon("/Datos/res/bee.png");
-		tileset_mob[0] = mob.getImage();
+		//mob = new ImageIcon("/Datos/res/melet.png");
+		mob1 = new ImageIcon("/Datos/res/bee.png");
+		tileset_mob[0] = mob1.getImage();
 		//tileset_mob[1] = mob1.getImage();
 
 		//save.loadSave(new File("src/Datos/save/mission" + level + ".fer"));
